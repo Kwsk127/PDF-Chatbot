@@ -30,6 +30,9 @@ pip install -r requirements.txt
 
 ## How It Works
 
+After installing all the dependencies mentioned in requirements.txt , Load the pdf_chatbot.py file in VS Code, put your HuggingFace and Chat Groq API tokens in .env file and Type Streamlit run pdf_chatbot.py in terminal to run 
+
+
 1. **Upload PDFs:** Users can upload one or more PDF files via the Streamlit interface.
    
 2. **PDF Text Extraction:** The text from the uploaded PDFs is extracted and chunked into smaller sections for efficient processing.
